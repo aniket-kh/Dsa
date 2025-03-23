@@ -32,7 +32,7 @@ console.log("1"+1); // js engine convert string into number
 // // A= A-B
 // // console.log(A,B);
 
-// [A, B] = [B, A]; // ✅ Correct way
+// [A, B] = [B, A]; // ✅ Correct way // destructuring method
 
 // console.log(A, B); // Output: 20 10
 
@@ -73,7 +73,7 @@ console.log(Math.min(11,2587,12,456)); // return min value
 console.log(Math.floor(Math.random()*9000)+1000);
 
 let y = 12.233256
-console.log(y.toFixed(2)); // give require number after decimal point and its type is string
+console.log (y.toFixed(2)); // give require number after decimal point and its type is string
 
 //Q1 calculate area and perimeter of ractangle
 
